@@ -90,6 +90,18 @@ input{
     border-radius: 10px;
 }
 
+.notification{
+    display: grid;
+    grid-template-columns: 1fr 1fr 4fr;
+    align-items: center;
+    justify-content: center;
+    
+}
+.notification>img{
+    max-height: 50%;
+}
+
+
 .maincontent{
     border:5px solid blueviolet;
     grid-area:2/2/7/7;
