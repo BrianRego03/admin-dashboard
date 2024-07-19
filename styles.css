@@ -79,26 +79,30 @@ nav>div:first-child{
     grid-template-columns: 1fr 10fr;
     justify-content: center;
     align-items: center;
+    padding-left: 10%;
 }
 .searchbar>img{
-    max-height: 50%;
+    /* max-height: 50%; */
     
 }
 input{
-    max-height: 50%;
+    /* max-height: 50%; */
     background-color: rgb(195, 187, 187);
     border-radius: 10px;
 }
 
 .notification{
     display: grid;
-    grid-template-columns: 1fr 1fr 4fr;
+    grid-template-columns: 1fr 1fr 3fr;
     align-items: center;
-    justify-content: center;
+    justify-content:center;
+    padding-left: 55%;
+    column-gap: 30px;
+    
     
 }
-.notification>img{
-    max-height: 50%;
+.notification>img:nth-child(2){
+    border-radius: 50%;
 }
 
 
