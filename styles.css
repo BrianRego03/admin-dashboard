@@ -55,6 +55,14 @@
 
     display:grid;
     grid-template-rows: 1fr 3fr 6fr;
+
+    color: azure;
+    font-weight: bold;
+    font-size: medium;
+}
+
+nav>div:first-child{
+    font-size: larger;
 }
 .header{
     grid-column: 2/5;
