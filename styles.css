@@ -74,6 +74,15 @@ nav>div:first-child{
     
 }
 
+.searchbar{
+    display: grid;
+    grid-template: 1fr 1fr/2fr 14fr;
+}
+.searchbar>img{
+    grid-area: 1/1/3/2;
+    width: 50%;
+}
+
 
 .maincontent{
     border:5px solid blueviolet;
