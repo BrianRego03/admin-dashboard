@@ -79,8 +79,7 @@ nav>div:first-child{
     grid-template-columns: 1fr 10fr;
 }
 .searchbar>img{
-    align-self: center;
-    
+    align-self: center;    
     justify-self:center; 
 }
 
