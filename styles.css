@@ -68,8 +68,13 @@ nav>div:first-child{
 .header{
     grid-column: 2/7;
     border:5px solid lawngreen;
+
+    display:grid;
+    grid-template: repeat(2,1fr)/repeat(2,1fr);
     
 }
+
+
 .maincontent{
     border:5px solid blueviolet;
     grid-area:2/2/7/7;
