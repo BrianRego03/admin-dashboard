@@ -1,0 +1,26 @@
+
+.skeleton{
+    display: grid;
+    grid-template: repeat(4,1fr)/repeat(4,1fr); 
+    min-width: 100%;
+    min-height: 100%;
+    /* min-width: 100vw;
+    min-height: 100vw;
+     */
+}
+.sidebar{
+    /* grid-row: 1/5; */
+    border: 5px soild red;
+    grid-area: 1/1/5/2;
+    background-color: brown;
+}
+.header{
+    /* grid-column: 2/5; */
+    border:5px solid lawngreen;
+    grid-area: 1/2/2/5;
+}
+.maincontent{
+    border:5px solid blueviolet;
+    grid-area:2/2/5/5;
+    
+}
