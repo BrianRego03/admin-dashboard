@@ -102,6 +102,18 @@ input{
     border-radius: 50%;
 }
 
+.username{
+    display: grid;
+    grid-template: 1fr 1fr/2fr 6fr;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10%;
+}
+.username>img{
+    grid-row: 1/3;
+    width:50%;
+}
+
 
 .maincontent{
     border:5px solid blueviolet;
