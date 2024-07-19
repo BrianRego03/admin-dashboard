@@ -81,12 +81,9 @@ nav>div:first-child{
     align-items: center;
     padding-left: 10%;
 }
-.searchbar>img{
-    /* max-height: 50%; */
-    
-}
+
 input{
-    /* max-height: 50%; */
+    
     background-color: rgb(195, 187, 187);
     border-radius: 10px;
 }
