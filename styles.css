@@ -77,12 +77,18 @@ nav>div:first-child{
 .searchbar{
     display: grid;
     grid-template-columns: 1fr 10fr;
+    justify-content: center;
+    align-items: center;
 }
 .searchbar>img{
-    align-self: center;    
-    justify-self:center; 
+    max-height: 50%;
+    
 }
-
+input{
+    max-height: 50%;
+    background-color: rgb(195, 187, 187);
+    border-radius: 10px;
+}
 
 .maincontent{
     border:5px solid blueviolet;
