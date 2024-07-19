@@ -117,6 +117,21 @@ input{
     justify-self: right;
 }
 
+.bluebuttons{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    align-items: center;
+    padding-left: 50%;
+}
+.bluebuttons>button{
+    width:90%;
+    height:50%;
+    background-color: rgb(102, 102, 233);
+    color: azure;
+    border-radius: 20px;
+}
+
 
 .maincontent{
     border:5px solid blueviolet;
