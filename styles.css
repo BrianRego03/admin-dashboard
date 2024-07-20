@@ -217,17 +217,17 @@ input{
 
 .projectgrid{
   display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(100px,400px));
+  grid-template-columns: repeat(auto-fit,minmax(100px,440px));
   
   gap: 10px;
-  max-width:900px;
+  max-width:940px;
 
   padding: 10px;
 }
 .projsquares{
   border: 2px solid white;
   font-size: 16px;
-  height: 200px;
+  height: 230px;
 }
 .projsquares>div>button{
   width: 40px;
@@ -238,6 +238,11 @@ input{
 .projsquares>div{
   display: flex;
   justify-content: flex-end;
+}
+.projsquares{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
              
 .feed{
