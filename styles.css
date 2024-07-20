@@ -103,7 +103,9 @@ nav>div:nth-child(2){
 
 .header{
     grid-column: 2/7;
-    border:5px solid lawngreen;
+    border:5px solid rgba(0,0,0,0);
+    background-color: rgb(97, 97, 97);
+    color: azure;
 
     display:grid;
     
@@ -142,6 +144,7 @@ input{
     display: flex;
     flex-wrap: wrap;
     text-align:center;
+    padding-top: 2%;
 
     
     
@@ -174,6 +177,13 @@ input{
   min-width: 60%;
   word-wrap: break-word;
 }
+.username>span:nth-child(2){
+  font-size: 20px;
+  font-weight: 700;
+}
+.username>span:nth-child(3){
+  font-weight: 800;
+}
 
 .bluebuttons{
     display:grid;
@@ -186,8 +196,7 @@ input{
 }
 .bluebuttons>button{
     width:150px;
-    /* height:50%; */
-    background-color: rgb(102, 102, 233);
+    background-color: black;
     color: azure;
     border-radius: 20px;
 }
