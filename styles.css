@@ -91,6 +91,11 @@ input{
     background-color: rgb(195, 187, 187);
     border-radius: 10px;
     border-color: rgba(0,0,0,0);
+    max-width: 40vw;
+}
+
+.searchbar>img{
+  min-width: 35px;
 }
 
 .notification{
@@ -124,7 +129,7 @@ input{
 
 .bluebuttons{
     display:grid;
-    /* grid-template-columns: repeat(3,1fr); */
+   
     grid-template-columns:repeat(auto-fit,minmax(200px,33%)) ;
     justify-content: center;
     align-items: center;
