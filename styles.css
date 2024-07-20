@@ -94,7 +94,7 @@ input{
     max-width: 40vw;
 }
 
-.searchbar>img{
+.searchbar>img,.notification>img{
   min-width: 35px;
 }
 
