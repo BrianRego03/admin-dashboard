@@ -219,7 +219,8 @@ input{
   display: grid;
   grid-template-columns: repeat(auto-fit,minmax(100px,440px));
   
-  gap: 10px;
+  row-gap: 10px;
+  column-gap: 15px;
   max-width:940px;
 
   padding: 10px;
@@ -227,7 +228,7 @@ input{
 .projsquares{
   border: 2px solid white;
   font-size: 16px;
-  height: 230px;
+  height: 240px;
 }
 .projsquares>div>button{
   width: 40px;
@@ -243,6 +244,11 @@ input{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.projtitle{
+  font-weight: 700;
+  font-size: 24px;
 }
              
 .feed{
