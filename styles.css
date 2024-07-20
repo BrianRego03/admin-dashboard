@@ -194,3 +194,31 @@ input{
   font-size: 16px;
   height: 200px;
 }
+
+
+
+
+.announcegrid{
+  display: grid;
+  gap:10px;
+  grid-template-columns: repeat(auto-fill,minmax(100px,300px));
+  
+ 
+  
+
+  font-size: 16px;
+  background-color: black;
+  
+}
+.announcegrid>div{
+  
+  min-height:150px;
+  
+  
+  
+  border-bottom: 2px solid azure ;
+}
+
+.announcegrid>div:nth-child(3){
+  border-bottom: rgb(0,0,0,0);
+}
