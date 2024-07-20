@@ -60,6 +60,8 @@
     color: azure;
     font-weight: bold;
     font-size: medium;
+
+    min-width: 150px;
 }
 
 nav>div:first-child{
