@@ -235,6 +235,10 @@ input{
   background-color: rgba(0,0,0,0);
   border:1px solid rgba(0,0,0,0);
 }
+.projsquares>div{
+  display: flex;
+  justify-content: flex-end;
+}
              
 .feed{
   display: flex;
