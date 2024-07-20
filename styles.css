@@ -125,6 +125,12 @@ input{
     width:85px;
     border-radius: 50%;
     justify-self: right;
+    min-width:60px;
+}
+
+.username>span{
+  min-width: 60%;
+  word-wrap: break-word;
 }
 
 .bluebuttons{
