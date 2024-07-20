@@ -75,8 +75,29 @@ nav>div:first-child{
 nav>div:nth-child(2){
   max-height: 200px;
   margin-top: 100px;
-  margin-bottom: 100px;
+  margin-bottom: 40vh;
 }
+
+.dash>img{
+  width:60px
+}
+
+.navigate>div>img,.branding>div>img{
+  width:40px;
+  margin-right:20px;
+
+}
+
+.navigate>div,.branding>div,.dash{
+  display:flex;
+  flex-wrap: wrap;
+  
+}
+
+.navigate>div>p{
+  padding-right: 30px;;
+}
+
 .header{
     grid-column: 2/7;
     border:5px solid lawngreen;
