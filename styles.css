@@ -86,6 +86,7 @@ input{
     
     background-color: rgb(195, 187, 187);
     border-radius: 10px;
+    border-color: rgba(0,0,0,0);
 }
 
 .notification{
