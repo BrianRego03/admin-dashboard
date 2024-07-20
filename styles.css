@@ -176,6 +176,8 @@ input{
 
     display: flex;
     min-width: 200px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
        
     
 }
