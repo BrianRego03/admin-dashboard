@@ -72,7 +72,9 @@ nav>div:first-child{
     border:5px solid lawngreen;
 
     display:grid;
-    grid-template: repeat(2,1fr)/repeat(2,1fr);
+    
+    grid-template-columns: repeat(auto-fit,minmax(200px,50%));
+    
     
 }
 
