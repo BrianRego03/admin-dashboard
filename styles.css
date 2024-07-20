@@ -42,6 +42,13 @@
     isolation: isolate;
   }
 
+@font-face {
+  font-family: 'ubuntu';
+  src: url('./fonts/Ubuntu-Regular.ttf') format('truetype')
+}
+*{
+  font-family: 'ubuntu';
+}
 
 .skeleton{
     display: grid;
