@@ -309,6 +309,11 @@ input{
   
 }
 
+.announce>p,.trends>p,.proj>p{
+  font-weight: 800;
+  font-size: 30px;
+}
+
 .trendsflex>div{
   padding: 5px;
 }
