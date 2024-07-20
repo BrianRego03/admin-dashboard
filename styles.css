@@ -219,16 +219,19 @@ input{
   display: grid;
   grid-template-columns: repeat(auto-fit,minmax(100px,440px));
   
-  row-gap: 10px;
+  row-gap: 30px;
   column-gap: 15px;
   max-width:940px;
 
   padding: 10px;
 }
 .projsquares{
-  border: 2px solid white;
+  background-color: #a31339;   
+  border-left: 5px solid rgb(212, 141, 0);
+  box-shadow: 2px 1px 1px rgb(255, 255, 255);
   font-size: 16px;
   height: 240px;
+  padding-left: 5px;
 }
 .projsquares>div>button{
   width: 40px;
