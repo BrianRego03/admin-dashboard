@@ -112,9 +112,12 @@ input{
 
 .notification{
    
-    padding-left: 55%;
+    padding-left: 10%;
+    padding-right: 10%;
+    justify-content: flex-end;
     display: flex;
     flex-wrap: wrap;
+    text-align:right;
 
     
     
