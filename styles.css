@@ -197,7 +197,11 @@ input{
   height: 200px;
 }
 
+.feed{
+  display: flex;
+  flex-direction: column;
 
+}
 
 
 .announcegrid{
